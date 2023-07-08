@@ -1,0 +1,494 @@
+<mjml>
+  <mj-head>
+    <mj-title>Customer Journey News</mj-title>
+    <mj-preview>September issue NOW IN!</mj-preview>
+
+    <mj-attributes>
+      <mj-all font-family="SKODA Next, Arial" font-size="16px" padding="0" line-height="135%" color="#4A4A4A" />
+      <mj-text font-family="SKODA Next, Arial" font-size="16px" padding="0" line-height="135%" color="#4A4A4A" />
+      <mj-class name="headline" font-size="20px" font-weight="600" font-family="Skoda Next, Arial" line-height="120%" color="#4A4A4A" word-spacing="33px" />
+    </mj-attributes>
+
+    <mj-style>
+      @media (max-width:610px) {
+      .padding-mobile > table > tbody > tr > td {
+      padding-left: 25px !important;
+      padding-right: 25px !important;
+      }
+      }
+    </mj-style>
+
+    <mj-style inline="inline">
+      a {
+        text-decoration: none;
+      }
+      .href {
+        color: #6FB353 !important;
+        text-decoration: none;
+      }
+      .tel {
+        color: #4A4A4A !important;
+        text-decoration: none !important;
+      }
+      .mail {
+        text-decoration: none !important;
+      }
+    </mj-style>
+
+  </mj-head>
+
+  <mj-body>
+    <mj-section css-class="padding-mobile" padding-top="10px">
+      <mj-column>
+        <mj-text align="center" font-size="14px" line-height="120%" text-decoration="none">
+          If you have trouble viewing this e-mail, please click <a href="{{webversion}}" class="href" font-size="14px" line-height="120%" color="#6FB353" target="_blank">here</a>.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Logos -->
+    <mj-section padding-left="24px" padding-right="33px" padding-bottom="24px" padding-top="24px">
+      <mj-group>
+        <mj-column vertical-align="middle">
+          <mj-image src="https://cdn-smartemailing.cz/262571/media/logos/skoda.png?_t=1626956648" href="https://skoda-auto.com" width="113px" align="left" alt="ŠKODA AUTO logo"></mj-image>
+        </mj-column>
+        <mj-column vertical-align="middle">
+          <mj-image src="https://cdn-smartemailing.cz/262571/media/logos/simply-clever.png?_t=1626956495" width="66px" align="right" alt="SIMPLY CLEVER"></mj-image>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+
+    <mj-section>
+      <mj-column>
+        <mj-image src="https://cdn-smartemailing.cz/262571/media/vx/september/header-22-09-v2-1200x730px.jpg?_t=1663922975" width="600px" alt="Be Part of Our Digital Experience" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section css-class="padding-mobile" padding-top="49px" padding-bottom="35px">
+      <mj-column width="504px">
+        <mj-text padding-bottom="20px" font-weight="700">
+          Dear {{df_name}},
+        </mj-text>
+        <mj-text padding-bottom="15px">
+          Changes abounded at the end of the summer. As part of ŠKODA NEXT LEVEL STRATEGY 2020, a <b>new identity for the ŠKODA brand</b> was unveiled on 30 August: a new design language, a new logo, a new corporate identity and, last but not least, further plans for electromobility were introduced. The Customer Journey Team is part of these changes, so let’s see what’s new!
+        </mj-text>
+        <mj-text>
+          <strong>Your Customer Journey Team</strong>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- video -->
+    <mj-section background-color="#EBEBEB" css-class="padding-mobile">
+      <mj-group width="504px">
+        <mj-column padding-bottom="35px">
+          <mj-text align="center" font-size="22px" padding-top="37px" padding-bottom="31px">
+            HUX SPACE coming soon
+          </mj-text>
+          <mj-text align="center" >
+            It’s almost ready and soon you’ll be able to visit it for yourselves in Prague. The HUX SPACE – the Holistic User Experience. A space where you’ll be able to experience first-hand the journey your customers make. A space enabling us to simulate the real customer experience. The idea of the HUX SPACE was born of the need to demonstrate all the customer touchpoints: starting with choosing a car on the Car Configurator, then buying the car at the dealership, and ending with a visit to the service centre.
+          </mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-image src="https://cdn-smartemailing.cz/262571/media/vx/september/02-video-thumbnail-vlcsnap-1000x563px.jpg?_t=1663922980" href="https://skoda-newsletter.com/vx/2022/9/Hux_space_trailer.mp4" alt="HUX SPACE Trailer" />
+      </mj-column>
+    </mj-section>
+
+    <!-- DIGITAL PRODUCT & WEB CONTENT -->
+    <mj-section padding-top="35px">
+      <mj-column>
+        <mj-image src="https://cdn-smartemailing.cz/262571/media/vx/rozdelovniky/digital.png?_t=1643104802" alt="DIGITAL PRODUCT" />
+      </mj-column>
+    </mj-section>
+
+    <mj-wrapper padding-top="40px" css-class="padding-mobile">
+      <mj-section>
+        <mj-column width="188px">
+          <mj-text mj-class="headline" padding-bottom="15px">
+            Plug & Charge available with&nbsp;Powerpass plans
+          </mj-text>
+        </mj-column>
+        <mj-column width="316px">
+          <mj-image width="316px" src="https://cdn-smartemailing.cz/262571/media/vx/september/03-image-220818-plug-charge-for-enyaq-iv-family-632x356px.jpg?_t=1663923019" alt="Plug & Charge available with Powerpass plans" />
+        </mj-column>
+      </mj-section>
+
+      <mj-section>
+        <mj-column width="504px">
+          <mj-text padding-top="30px" padding-bottom="20px">
+            Plug & Charge (PnC) is a new public charging authentication method. It is available for ENYAQ iV models with ME 3.1 software. With PnC, the charging process can be started easily at compatible charging points by simply plugging in the charging cable. Customers no longer need a smartphone app or an RFID card, as the car is automatically identified at the charging point. PnC functionality is already supported in the IONITY network, with more partners set to follow. Existing Powerpass users can activate the feature with a few clicks via the MyŠKODA app, while new customers will get PnC when they sign a contract. PnC is supported by the Powerpass Simple Charge and Charge Faster plans.
+          </mj-text>
+          <mj-text align="right" color="#FFFFFF" padding-bottom="10px">
+            <mj-raw>
+              <div>
+                <!--[if mso]>
+                    <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://vimeo.com/720244251/7f5fb1fd94" style="height:40px;v-text-anchor:middle;width:150px;" arcsize="228%" stroke="f" fillcolor="#4BA82E">
+                      <w:anchorlock/>
+                      <center>
+                    <![endif]-->
+                <a href="https://vimeo.com/720244251/7f5fb1fd94" target="_blank" style="background-color:#4BA82E;border-radius:91px;color:#ffffff;display:inline-block;font-family: Skoda Next, Arial; font-size:11px;font-weight:bold;line-height:40px;text-align:center;text-decoration:none;width:150px;-webkit-text-size-adjust:none;">EXPLANATORY VIDEO</a>
+                <!--[if mso]>
+                      </center>
+                    </v:roundrect>
+                  <![endif]-->
+              </div>
+            </mj-raw>
+          </mj-text>
+
+          <mj-text align="right" color="#FFFFFF" padding-bottom="10px">
+            <mj-raw>
+              <div>
+                <!--[if mso]>
+                    <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.skoda-storyboard.com/en/press-releases/plug-charge-function-for-enyaq-iv-family-launched/" style="height:40px;v-text-anchor:middle;width:150px;" arcsize="228%" stroke="f" fillcolor="#4BA82E">
+                      <w:anchorlock/>
+                      <center>
+                    <![endif]-->
+                <a href="https://www.skoda-storyboard.com/en/press-releases/plug-charge-function-for-enyaq-iv-family-launched/" target="_blank" style="background-color:#4BA82E;border-radius:91px;color:#ffffff;display:inline-block;font-family: Skoda Next, Arial; font-size:11px;font-weight:bold;line-height:40px;text-align:center;text-decoration:none;width:150px;-webkit-text-size-adjust:none;">PRESS RELEASE</a>
+                <!--[if mso]>
+                      </center>
+                    </v:roundrect>
+                  <![endif]-->
+              </div>
+            </mj-raw>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+    <mj-wrapper padding-top="40px" css-class="padding-mobile">
+      <mj-section>
+        <mj-column width="188px">
+          <mj-text mj-class="headline" padding-right="10px" padding-bottom="15px">
+            Flow Design System Guidelines
+          </mj-text>
+        </mj-column>
+        <mj-column width="316px">
+          <mj-image width="316px" src="https://cdn-smartemailing.cz/262571/media/vx/september/eyjwyx-1.jpg?_t=1664184667" alt="Flow Design System Guidelines" />
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+    </mj-group>
+
+    <mj-section>
+      <mj-column width="504px">
+        <mj-text padding-top="30px"  padding-bottom="20px">
+          The ŠKODA UX Team (VX/1) has released Flow guidelines – new CI documentation tailored to digital touchpoints. <b>What is Flow? A fully comprehensive Design System</b> used to create and scale a wide range of digital products and experiences. This multi-platform Design System integrates guidelines, tools and resources to help designers and developers create digital products and deliver a cohesive experience across all our digital touchpoints. With Flow, you can create digital products faster than ever before. It considerably reduces the time needed for coding, component implementation and redesign work. You can access the guidelines at <a href="http://flow.skoda-brand.com/" class="href" color="#6FB353" target="_blank">http://flow.skoda-brand.com/</a>.</b>
+        </mj-text>
+
+        <mj-text align="right" color="#FFFFFF" padding-bottom="10px">
+          <mj-raw>
+            <div>
+              <!--[if mso]>
+                    <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://flow.skoda-brand.com/d/6aQMrmD6PhWL/foundation#/about-flow/what-is-flow" style="height:40px;v-text-anchor:middle;width:130px;" arcsize="228%" stroke="f" fillcolor="#4BA82E">
+                      <w:anchorlock/>
+                      <center>
+                    <![endif]-->
+              <a href="https://flow.skoda-brand.com/d/6aQMrmD6PhWL/foundation#/about-flow/what-is-flow" target="_blank" style="background-color:#4BA82E;border-radius:91px;color:#ffffff;display:inline-block;font-family: Skoda Next, Arial; font-size:11px;font-weight:bold;line-height:40px;text-align:center;text-decoration:none;width:130px;-webkit-text-size-adjust:none;">WHAT IS FLOW?</a>
+              <!--[if mso]>
+                      </center>
+                    </v:roundrect>
+                  <![endif]-->
+            </div>
+          </mj-raw>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    </mj-wrapper>
+
+    <!-- PEOPLE -->
+    <mj-section padding-top="55px">
+      <mj-column>
+        <mj-image src="https://cdn-smartemailing.cz/262571/media/vx/rozdelovniky/people.png?_t=1643104805" alt="PEOPLE" />
+      </mj-column>
+    </mj-section>
+
+    <mj-wrapper padding-top="40px" css-class="padding-mobile">
+      <mj-section>
+        <mj-column width="188px">
+          <mj-text align="left" mj-class="headline" padding-right="29px" mj-class="headline" padding-bottom="15px">
+            Seven new Human Touch Masters appointed
+          </mj-text>
+        </mj-column>
+        <mj-column width="316px">
+          <mj-image width="316px" src="https://cdn-smartemailing.cz/262571/media/vx/september/07-image-05-1-426-wdc-220904-km6-9354-632x356px.jpg?_t=1663923020" alt="Seven new Human Touch Masters appointed" />
+        </mj-column>
+      </mj-section>
+
+      <mj-section>
+        <mj-column width="504px">
+          <mj-text padding-top="30px">
+            At the start of September, WDC Prague hosted an impressive Golden Ceremony. Seven new Human Touch Masters (1 from Croatia, 4 from Hungary and 2 from Spain) were inducted into the golden Human Touch Masters pin club, which now proudly numbers a total of 62 honorees. These are highly skilled customer-facing professionals who put our vision and idea of Human Touch into practice by living our Human Touch philosophy in their daily business, fulfilling each and every need of our customers and being the best of best in their professional field. We greatly value their efforts and congratulate them on their success.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+    <!-- EVENTS -->
+    <mj-section padding-top="55px">
+      <mj-column>
+        <mj-image src="https://cdn-smartemailing.cz/262571/media/vx/rozdelovniky/events.png?_t=1643104803" alt="EVENTS" />
+      </mj-column>
+    </mj-section>
+
+    <mj-wrapper padding-top="40px" css-class="padding-mobile">
+      <mj-section>
+        <mj-column width="188px">
+          <mj-text  mj-class="headline" padding-right="25px" padding-bottom="15px">
+            ŠKODA WEB3 #1 Meetup
+          </mj-text>
+        </mj-column>
+        <mj-column width="316px">
+          <mj-image width="316px" src="https://cdn-smartemailing.cz/262571/media/vx/september/08-image-22-08-25-bsw3-71-632x356px.jpg?_t=1663923020" alt="ŠKODA WEB3 #1 Meetup" />
+        </mj-column>
+      </mj-section>
+
+      <mj-section>
+        <mj-column width="504px">
+          <mj-text padding-top="30px" padding-bottom="20px">
+            On 25 August, the VX WEB3 team, headed by Luca Zicconi, organised the first ŠKODA WEB3 Meetup, an informal offsite workshop for more than 50 people from a variety of strategic backgrounds. The event, held at the Endorfin conference facilities in Prague, included an opening speech by Martin Jahn, Board Member for Sales & Marketing, and Thorsten Nicklass, Head of Digital Development, Data and Rollout. One of the event’s main objectives was to introduce WEB3, Blockchain, Metaverse, NFTs and their potential for the carmaker, including an interesting panel talk discussion with WEB3 experts that was very well received by the audience.
+          </mj-text>
+          <mj-text align="right" color="#FFFFFF">
+            <mj-raw>
+              <div>
+                <!--[if mso]>
+                    <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://vimeo.com/720244251/7f5fb1fd94" style="height:40px;v-text-anchor:middle;width:150px;" arcsize="228%" stroke="f" fillcolor="#4BA82E">
+                      <w:anchorlock/>
+                      <center>
+                    <![endif]-->
+                <a href="https://skoda-newsletter.com/vx/2022/9/index_SKODA_WEB3_Meetup" target="_blank" style="background-color:#4BA82E;border-radius:91px;color:#ffffff;display:inline-block;font-family: Skoda Next, Arial; font-size:11px;font-weight:bold;line-height:40px;text-align:center;text-decoration:none;width:150px;-webkit-text-size-adjust:none;">MAIN TOPICS</a>
+                <!--[if mso]>
+                      </center>
+                    </v:roundrect>
+                  <![endif]-->
+              </div>
+            </mj-raw>
+          </mj-text>
+
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+    <!-- FACTS and FIGURES   -->
+    <mj-section padding-top="55px">
+      <mj-column>
+        <mj-image src="https://cdn-smartemailing.cz/262571/media/cem-bits-and-bytes/2022/january/facts.png?_t=1642440297" alt="FACTS_AND_FIGURES" />
+      </mj-column>
+    </mj-section>
+
+    <mj-wrapper padding-top="40px" css-class="padding-mobile">
+      <mj-section text-align="center">
+        <mj-column width="168px" padding-right="18px" padding-bottom="30px">
+          <mj-image align="center" width="77px" src="https://cdn-smartemailing.cz/262571/media/vx/september/ikony-a-22-09-300x300px.jpg?_t=1663923059" padding-bottom="21px" alt="FACTS_AND_FIGURES" />
+          <mj-text align="center">
+            <b>Fleet Configurator</b><br>
+            Fleet Configurator is steadily expanding its Pilot to more customers in the Czech market, with the aim of making it available to everyone across the country by February 2023, before expanding into other markets from March 2023.
+          </mj-text>
+        </mj-column>
+
+        <mj-column width="168px" padding-right="18px" padding-bottom="30px">
+          <mj-image align="center" width="77px" src="https://cdn-smartemailing.cz/262571/media/vx/september/ikony-b-22-09-300x300px.jpg?_t=1663923060" padding-bottom="21px" alt="FACTS_AND_FIGURES" />
+          <mj-text align="center">
+            <b>VTP Stock Cars</b><br>
+            VTP Stock Cars has outperformed the older generation, increasing leads generated for each car in stock by +115%, more than doubling the leads per car!
+          </mj-text>
+        </mj-column>
+
+        <mj-column width="168px" padding-bottom="20px">
+          <mj-image align="center" width="77px" src="https://cdn-smartemailing.cz/262571/media/vx/september/ikony-c-22-09-300x300px.jpg?_t=1663923060" padding-bottom="21px" alt="FACTS_AND_FIGURES" />
+          <mj-text align="center">
+            <b>Car Configurator</b><br>
+            The vehicles most configured in the past year, with over 2 million finished configurations, are the OCTAVIA and ENYAQ iV!
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+    <!-- 2 tlačítka vedle sebe = AfterSales_Tunning-->
+    <mj-wrapper background-color="#F3FBFA" css-class="padding-mobile">
+      <mj-section padding-bottom="38px" padding-top="37px">
+        <mj-column>
+          <mj-text mj-class="headline" align="center">
+            MORE INFORMATION
+          </mj-text>
+          <mj-text font-size="20px" align="center">
+            (login required)
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding-bottom="40px">
+        <mj-column width="230px">
+          <mj-text align="center" padding-bottom="15px">
+            <mj-raw>
+              <div>
+                <!--[if mso]>
+                    <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://milkyway.skoda-auto.com/Pages/CEM.aspx" style="height:43px;v-text-anchor:middle;width:174px;" arcsize="212%" stroke="f" fillcolor="#4BA82E">
+                      <w:anchorlock/>
+                      <center>
+                    <![endif]-->
+                <a href="https://milkyway.skoda-auto.com/Pages/CEM.aspx" target="blank" style="background-color:#4BA82E;border-radius:91px;color:#ffffff; box-shadow: 0px 6px 12px rgba(75, 168, 46, 0.2), 0px 2px 4px rgba(75, 168, 46, 0.27); display:inline-block;font-family:Skoda Next, Arial;font-size:11px;font-weight:bold;line-height:43px;text-align:center;text-decoration:none;width:174px;-webkit-text-size-adjust:none;">INFORMATION HUB</a>
+                <!--[if mso]>
+                      </center>
+                    </v:roundrect>
+                  <![endif]-->
+              </div>
+            </mj-raw>
+          </mj-text>
+        </mj-column>
+
+        <mj-column width="230px">
+          <mj-text align="center">
+            <mj-raw>
+              <div>
+                <!--[if mso]>
+                    <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://milkyway.skoda-auto.com/Pages/CEMfaqs.aspx" style="height:43px;v-text-anchor:middle;width:174px;" arcsize="212%" stroke="f" fillcolor="#4BA82E">
+                      <w:anchorlock/>
+                      <center>
+                    <![endif]-->
+                <a href="https://milkyway.skoda-auto.com/Pages/CEMfaqs.aspx" target="blank" style="background-color:#4BA82E;border-radius:91px;color:#ffffff; box-shadow: 0px 6px 12px rgba(75, 168, 46, 0.2), 0px 2px 4px rgba(75, 168, 46, 0.27); display:inline-block;font-family:Skoda Next, Arial;font-size:11px;font-weight:bold;line-height:43px;text-align:center;text-decoration:none;width:174px;-webkit-text-size-adjust:none;">FAQs</a>
+                <!--[if mso]>
+                      </center>
+                    </v:roundrect>
+                  <![endif]-->
+              </div>
+            </mj-raw>
+          </mj-text>
+        </mj-column>
+    </mj-wrapper>
+    </mj-section>
+
+    <mj-wrapper padding-top="30px" css-class="padding-mobile">
+      <mj-section>
+        <mj-column width="504px">
+          <mj-text align="center" mj-class="headline" padding-bottom="24px">
+            WE WANT YOUR FEEDBACK
+          </mj-text>
+          <mj-text align="center" padding-bottom="25px">
+            If you can spare 2 minutes of your time, we would love you to take part in this five-question survey as it will help us to improve as we move forward. </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+    <mj-wrapper padding-bottom="60px">
+      <mj-section>
+        <mj-column width="504px">
+          <mj-text align="center">
+            <mj-raw>
+              <div>
+                <!--[if mso]>
+                        <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.survio.com/survey/d/N4Q1A1Q5E3P2M2W8P" style="height:44px;v-text-anchor:middle;width:174px;" arcsize="207%" strokecolor="#BFC0C0" fillcolor="#ffffff">
+                          <w:anchorlock/>
+                          <center style="color:#4A4A4A;font-family:Skoda Next, Arial;font-size:11px;font-weight:bold;">FEEDBACK</center>
+                        </v:roundrect>
+                      <![endif]--><a href="https://www.survio.com/survey/d/N4Q1A1Q5E3P2M2W8P" target="blank" style="background-color:#ffffff;border:1px solid #BFC0C0;border-radius:91px;color:#4A4A4A;display:inline-block;font-family:Skoda Next, Arial;font-size:11px;font-weight:bold;line-height:44px;text-align:center;text-decoration:none;width:174px;-webkit-text-size-adjust:none;mso-hide:all;">FEEDBACK</a>
+              </div>
+            </mj-raw>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+    <!-- TEREZY -->
+    <mj-wrapper padding-bottom="40px" background-color="#EBEBEB" css-class="padding-mobile">
+      <mj-section>
+        <mj-column width="488px">
+          <mj-text align="center" mj-class="headline" padding-top="37px" padding-bottom="31px">
+            ANY QUESTIONS?
+          </mj-text>
+          <mj-text align="center" padding-bottom="25px">
+            If you have any questions, please contact <a href="mailto: XX.info@skoda-auto.cz" class="href mail" target="_blank">VX.info@skoda-auto.cz</a>.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+    <mj-wrapper background-color="#EBEBEB" css-class="padding-mobile">
+      <!-- <mj-group width="390px">
+          <mj-wrapper> -->
+      <mj-section padding-bottom="32px">
+
+        <mj-column width="129px" vertical-align="middle">
+          <mj-image align="left" width="92px" padding-right="37px" src="https://cdn-smartemailing.cz/262571/media/vx/march/13-contact-tereza-lukuvkova.png?_t=1648476345" alt="Tereza" padding-bottom="10px" />
+        </mj-column>
+
+        <mj-column width="261px">
+          <mj-text align="left" padding-bottom="8px">
+            Tereza XXX
+          </mj-text>
+          <mj-text align="left">
+            VX – Customer Journey Team
+          </mj-text>
+          <mj-text css-class="tel" align="left" text-decoration="none">
+            <a href="tel:+420 704 941 287" style="color:#4A4A4A!important;">+XXX XXX XXX XX</a> <br />
+            <a href="mailto:XXX.XXX@skoda-auto.cz" class="href mail" target="_blank">XXX.XXX@skoda-auto.cz</a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding-bottom="32px">
+        <mj-column width="129px" vertical-align="middle">
+          <mj-image align="left" width="92px" padding-right="37px" src="https://cdn-smartemailing.cz/262571/media/vx/march/14-contact-tereza-fojtkova.png?_t=1648476345" alt="Tereza" padding-bottom="10px" />
+        </mj-column>
+
+        <mj-column width="261px">
+          <mj-text align="left" font-weight="600" padding-bottom="8px">
+            Tereza XXX
+          </mj-text>
+          <mj-text align="left">
+            VX – Customer Journey Team
+          </mj-text>
+          <mj-text css-class="tel" align="left"  text-decoration="none">
+            <a href="tel:+420 704 941 479" style="color:#4A4A4A!important;">+XXX XXX XXX XX</a> <br />
+            <a href="mailto:XXX.XXX@skoda-auto.cz" class="href mail" target="_blank">XXX.XXX@skoda-auto.cz</a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- </mj-group>
+      </mj-wrapper> -->
+    </mj-wrapper>
+
+    <mj-section css-class="padding-mobile" padding-top="37px" padding-bottom="50px">
+      <mj-column width="488px">
+        <mj-text align="center" padding-bottom="15px">
+          Have you found this newsletter interesting?
+        </mj-text>
+        <mj-text align="center" font-size="16px">
+          <a href="https://www.survio.com/survey/d/F4G5M2F4S5L1P5V1S" target="blank" class="href mail" target="_blank">Please forward it to your co&#8209;workers.</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Footer -->
+    <mj-wrapper css-class="padding-mobile" border="0" border-bottom="0px" padding-top="40px" background-color="#000000">
+      <mj-section>
+        <mj-column width="504px">
+          <mj-text align="left" font-weight="700" color="#FFFFFF" padding-bottom="20px">
+            ŠKODA AUTO a.s.
+          </mj-text>
+          <mj-text align="left" color="#FFFFFF" padding-bottom="28px">
+            Tř. Václava Klementa 869 <br />
+            293 01 Mladá Boleslav II <br />
+            Czech Republic <br />
+            <a href="https://www.skoda-auto.com/" target="_blank" style="text-decoration: none"><span style="color: #FFF; text-decoration: none" target="_blank">www.skoda-auto.com</span></a> <br />
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section border-top="0px">
+        <mj-column border-top="0px">
+          <mj-image border-top="0px" align="right" width="235px" src="https://cdn-smartemailing.cz/262571/media/cem-bits-and-bytes/2022/january/frame.png?_t=1642192800" alt="Shapy footer" />
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+    <mj-section>
+      <mj-column>
+        <mj-spacer height="20px" />
+      </mj-column>
+    </mj-section>
+
+  </mj-body>
+</mjml>

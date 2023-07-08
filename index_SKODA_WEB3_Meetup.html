@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+        @font-face{
+            font-family:"SKODA Next W01 Light";
+            src:url("fonts/fa21ebb0-8dd3-4c37-8916-8a018a16643d.eot?#iefix");
+            src:url("fonts/fa21ebb0-8dd3-4c37-8916-8a018a16643d.eot?#iefix") format("eot"),url("fonts/339fad86-51a7-4d50-85a3-4dedc11ec0e8.woff2") format("woff2"),url("fonts/f4dc6ebc-4bef-49dc-94d8-be842036dc8e.woff") format("woff"),url("fonts/ac2aa7e8-e566-4ceb-b41f-38364bbf1ecb.ttf") format("truetype"),url("fonts/3d4dc453-e27f-47e3-9518-d9a428a79a17.svg#3d4dc453-e27f-47e3-9518-d9a428a79a17") format("svg");
+        }
+        @font-face{
+            font-family:"SKODA Next W01 Light Italic";
+            src:url("fonts/76a613c0-9023-40b2-a750-f32066c56fef.eot?#iefix");
+            src:url("fonts/76a613c0-9023-40b2-a750-f32066c56fef.eot?#iefix") format("eot"),url("fonts/ac812335-b9dd-468b-acab-97b7257edbb4.woff2") format("woff2"),url("fonts/7901f256-23ef-438c-bb9c-ec58de76fd47.woff") format("woff"),url("fonts/3af2f3be-7290-4a2c-9ec8-f706d0c36a60.ttf") format("truetype"),url("fonts/26a37246-1197-4612-ba01-4b2963706ad9.svg#26a37246-1197-4612-ba01-4b2963706ad9") format("svg");
+        }
+        @font-face{
+            font-family:"SKODA Next W01 Regular";
+            src:url("fonts/7c819ec9-a3c1-41d7-99ba-ad3a7ba9ba6b.eot?#iefix");
+            src:url("fonts/7c819ec9-a3c1-41d7-99ba-ad3a7ba9ba6b.eot?#iefix") format("eot"),url("fonts/7ce79b42-a287-47d8-8269-fbdea3f24ad3.woff2") format("woff2"),url("fonts/9e911125-957e-462c-bc02-f5dff3de74cf.woff") format("woff"),url("fonts/4538109e-9c89-4a87-bc49-469e9560001e.ttf") format("truetype"),url("fonts/38c8477e-9ae4-44c5-994a-6a139578ead0.svg#38c8477e-9ae4-44c5-994a-6a139578ead0") format("svg");
+        }
+        @font-face{
+            font-family:"SKODA Next W01 Italic";
+            src:url("fonts/5492a33a-65ed-408b-b48e-63146a50abf8.eot?#iefix");
+            src:url("fonts/5492a33a-65ed-408b-b48e-63146a50abf8.eot?#iefix") format("eot"),url("fonts/00a4c6b9-a720-438b-9261-38b8215e54d8.woff2") format("woff2"),url("fonts/7baa9b01-8b9c-49a8-936a-14817c515a51.woff") format("woff"),url("fonts/cc768200-dbfd-40a7-aed7-8c58a06b9875.ttf") format("truetype"),url("fonts/706a2c2b-e3e5-4b47-8bc0-a705afba03bc.svg#706a2c2b-e3e5-4b47-8bc0-a705afba03bc") format("svg");
+        }
+        @font-face{
+            font-family:"SKODA Next W01 Bold";
+            src:url("fonts/9547b6d7-3cdd-41a2-ad10-bddd4dd65c1b.eot?#iefix");
+            src:url("fonts/9547b6d7-3cdd-41a2-ad10-bddd4dd65c1b.eot?#iefix") format("eot"),url("fonts/ce0897d0-0c7c-4624-a0ce-6916cc092ba2.woff2") format("woff2"),url("fonts/24324ebe-600f-4fdc-8565-6ebff742f25a.woff") format("woff"),url("fonts/da0f29ed-a4ae-456e-9fd1-277067a800dc.ttf") format("truetype"),url("fonts/1133853c-a769-44dc-816d-00606fe2b9df.svg#1133853c-a769-44dc-816d-00606fe2b9df") format("svg");
+        }
+        @font-face{
+            font-family:"SKODA Next W01 Bold Italic";
+            src:url("fonts/ca161a7d-177d-4e63-ac78-0b8783d7a60a.eot?#iefix");
+            src:url("fonts/ca161a7d-177d-4e63-ac78-0b8783d7a60a.eot?#iefix") format("eot"),url("fonts/a1abb96a-7ea5-436c-be90-b59e41cd0024.woff2") format("woff2"),url("fonts/c6d6d0dc-3c61-45a4-89b7-fe0865da5279.woff") format("woff"),url("fonts/136393b4-d3f7-4b41-a746-e29045244d1f.ttf") format("truetype"),url("fonts/cf300266-9383-4ad5-8487-3b1aa0bba6d0.svg#cf300266-9383-4ad5-8487-3b1aa0bba6d0") format("svg");
+        }
+        @font-face{
+            font-family:"SKODA Next W01 Black";
+            src:url("fonts/9d5ca901-04bb-492e-8954-30674bffa52a.eot?#iefix");
+            src:url("fonts/9d5ca901-04bb-492e-8954-30674bffa52a.eot?#iefix") format("eot"),url("fonts/acbc703b-bde1-4366-9def-738fe1ec1459.woff2") format("woff2"),url("fonts/f8012618-1e1b-4c42-ba20-1444321c59de.woff") format("woff"),url("fonts/e9bc7831-118a-4d24-ae5c-e03b9d831844.ttf") format("truetype"),url("fonts/4f2fc0cc-5162-47d0-b8b9-3996daf46112.svg#4f2fc0cc-5162-47d0-b8b9-3996daf46112") format("svg");
+        }
+        @font-face{
+            font-family:"SKODA Next W01 Black Italic";
+            src:url("fonts/48842508-32f0-486d-90db-99ca0a9805d3.eot?#iefix");
+            src:url("fonts/48842508-32f0-486d-90db-99ca0a9805d3.eot?#iefix") format("eot"),url("fonts/6226a97b-d2d7-4dcf-9626-9f52dae529d2.woff2") format("woff2"),url("fonts/82e564c8-ee6b-42f9-956d-ce10a77dfb93.woff") format("woff"),url("fonts/9b3ec57c-2ff0-4838-ab4f-86119af68e2d.ttf") format("truetype"),url("fonts/bb81ae0d-a867-4f1d-b7fb-6ca43ebd590c.svg#bb81ae0d-a867-4f1d-b7fb-6ca43ebd590c") format("svg");
+        }
+
+        </style>
+
+<title>NEWCOMERS</title>
+</head>
+
+<body>
+    <div style="max-width: 1140px; margin-left: auto; margin-right: auto; margin-top: 50px; margin-bottom: 50px;">
+        <h2 style="font-family: SKODA Next W01 Black, Arial, Helvetica, sans-serif; font-size: 2rem">ŠKODA WEB3 Meetup #1 | Main Topics</h2>
+            <ul style="color: #4A4A4A; font-size: 16px; line-height: 26px; font-family: SKODA Next W01 Light, Arial, Helvetica, sans-serif">          
+                <li>Introduction to WEB3, Blockchain, Metaverse, NFTs</li>
+                <li>A presentation of current and upcoming WEB3 ŠKODA activities by Luca Zicconi, Hannes Vogelmann and Zuzana Varyšová</li>
+                <li>Panel discussion with WEB3 & NFT experts to explain the WEB3 space, the potential of this new internet evolution, why brands are investing in this space, underlying technology (blockchain, NFTs) and the cultural aspect of the WEB3 community</li>
+                <li>NFT exhibition tour to showcase the most influential projects and the reasons behind their success and why people invest in them (e.g. Bored Ape Yacht Club, Cryptopunks, World of Woman)</li>
+                <li>Hands-on experience to set up a crypto wallet and get the event NFT</li>
+                <li>Event outcome and next steps</li>
+                <li>Spark interest in the topic and show that WEB3 is too big to be neglected</li>
+                <li>Explore WEB3 business opportunities and potential</li>
+                <li>Define ŠKODA AUTO’s role in the WEB3 space</li>
+                <li>As ŠKODA AUTO, be an active brand within the framework of VW Group WEB3 activities</li>
+                <li>More education events coming soon (e.g. workshop at Innodays, webinars...)</li>
+                <li>Keep building the WEB3 Community at ŠKODA</li>
+            </ul>
+        <p style="color: #4A4A4A; font-size: 16px; line-height: 26px; font-family: SKODA Next W01 Light, Arial, Helvetica, sans-serif">For more information on these topics, please contact <a style="color: #a2c617" href="mailto:luca.zicconi@skoda-auto.cz" target="_blank">Luca Zicconi (VX3)</a>.</p>
+    </div>
+
+            
+
+
+       
+</body>
+</html>
