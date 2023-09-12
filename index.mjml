@@ -80,8 +80,7 @@
 
     <!-- video -->
     <mj-section background-color="#EBEBEB" css-class="padding-mobile">
-      <mj-group width="504px">
-        <mj-column padding-bottom="35px">
+        <mj-column padding-bottom="35px" width="504px">
           <mj-text align="center" font-size="22px" padding-top="37px" padding-bottom="31px">
             HUX SPACE coming soon
           </mj-text>
@@ -89,7 +88,6 @@
             It’s almost ready and soon you’ll be able to visit it for yourselves in Prague. The HUX SPACE – the Holistic User Experience. A space where you’ll be able to experience first-hand the journey your customers make. A space enabling us to simulate the real customer experience. The idea of the HUX SPACE was born of the need to demonstrate all the customer touchpoints: starting with choosing a car on the Car Configurator, then buying the car at the dealership, and ending with a visit to the service centre.
           </mj-text>
         </mj-column>
-      </mj-group>
     </mj-section>
     <mj-section>
       <mj-column>
